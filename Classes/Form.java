@@ -16,6 +16,10 @@ public class Form {
 		
 	}
 
+	public Form(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
 
 	public int getOtp() {
 		return otp;

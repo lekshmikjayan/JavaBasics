@@ -1,14 +1,23 @@
-
-public class Trial {
+public class Trial{
+	int num;
+	private int age;
+	
+	public Trial(int num, int age) {
+		//num = 19;
+		this.num = num;
+		this.age = age;
+	}
+	
+	public Trial() {
 		
-	static int show(int v,int s) {
-		return v*s;
 	}
 	
-	public int shows(int a,int b) {
-	//	System.out.println("lets check..!!");
-		return a -b;
+	public void qxz() {
+		System.out.println("Num is: " + num + "Age is : " + age);
 	}
 	
+	static int trf(int u, int b) {
+		return u * b;
+	}
 	
 }

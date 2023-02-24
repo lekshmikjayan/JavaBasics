@@ -19,14 +19,14 @@ public class FirstCls {
     System.out.println(pqr);
 
     System.out.println( Demo.view("tree ", "earth"));
-    
+    /*
     int b = Trial.show(3, 5);
     System.out.println(b);
     
     Trial t = new Trial();
     int result = t.shows(99,4);
     System.out.println(result);
-    /*
+    
     Check c = new Check();
     c.contact = 2355;
     c.country= "rhgbkhjg";
