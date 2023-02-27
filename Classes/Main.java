@@ -71,6 +71,35 @@ public class Main {
 	System.out.println("           ");
 	lb.demo7();
 	
+	System.out.println("           ");
+	Chair cr = new Chair();
+	int newCost = cr.checkTable(1000);
+	System.out.println(newCost);
+	cr.moveTable();
+	cr.showTable();
+	cr.setDisplay();
+	cr.checkDisplay();
+	
+	size se = size.Extralarge;
+	switch(se) {
+	case Small:
+		System.out.println("This is small..!!");
+		break;
+	case medium:
+		System.out.println("This is medium sized..!!");
+		break;
+	case Large:
+		System.out.println("This is Large..!!");
+		break;
+	case Extralarge:
+		System.out.println("This is too large..!!");
+		break;
+	default:
+		System.out.println("No matching");
+		
+		
+	}
+	
 	}	
 	
 }
