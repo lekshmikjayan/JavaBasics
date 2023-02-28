@@ -100,6 +100,16 @@ public class Main {
 		
 	}
 	
+	//int age =0;
+	
+	//tc.start();
+	tryctch tc = new tryctch();
+	tc.ageCheck(100);
+	Thread td = new Thread(tc);//passing obj of class to thread constructor
+	td.start();
+	td.setName("Hallooo");
+	
+	System.out.println("name is: " + td.getName());
 	}	
 	
 }

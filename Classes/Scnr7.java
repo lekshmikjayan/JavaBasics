@@ -19,3 +19,4 @@ public class Scnr7 {
 		System.out.println("num: " + num +" id: " +id +  "name: " + name +  " place: " + place  );
 	}
 }
+ 
