@@ -110,6 +110,17 @@ public class Main {
 	td.setName("Hallooo");
 	
 	System.out.println("name is: " + td.getName());
+	
+	//ThreadSample ts1 = new ThreadSample();
+	ThreadSample2 ts = new ThreadSample2();
+	ts.demo();
+	
+//	ts.getAge(17);
+	Thread t1 = new Thread(ts);//obj of thread is created & object of class is passed to constructor
+	t1.start();
+	System.out.println(ts.getAge(17));
+	
+	
 	}	
 	
 }
