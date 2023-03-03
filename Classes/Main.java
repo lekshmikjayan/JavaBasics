@@ -121,6 +121,15 @@ public class Main {
 	System.out.println(ts.getAge(17));
 	
 	
+	Encap01 ml = new Encap01();
+	ml.setId(8);
+	ml.setpetName("Vavvaa");
+	System.out.println("age: " + ml.showAge(19));
+	System.out.println("petname: " + ml.getpetName());
+	ml.showName();
+	System.out.println("id is: "+ ml.getId());
+	
+	
 	}	
 	
 }
