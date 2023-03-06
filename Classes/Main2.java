@@ -49,7 +49,7 @@ public class Main2 {
 		int g4 = b1.demo(35, 11);
 		int g7 = Box1.num(88);
 		System.out.println(g3 + "is the age and diff is " + g4 + "name is " + h2 + g7);
-
+/*
 		Scanner s3 = new Scanner(System.in);
 		System.out.println("Enter name, age, salary");
 
@@ -58,7 +58,27 @@ public class Main2 {
 		double salary = s3.nextDouble();
 
 		System.out.println("name: " + name + "age: " + age + "salary: " + salary);
-
+ */
+		Basic b = new Basic("ABC",26,283649836);
+		b.display();
+		b.view();
+		
+		check5 c5 = new check5();
+		int ga = c5.add(24, 42);
+		int gb = c5.add(55, 22, 7);
+		double gc = c5.add(34.678, 35.753);
+		
+		System.out.println("1st sum: " +ga + "2nd sum: " +gb + "doublw sum: " + gc);
+	
+	
+		Car cr = new Carr();
+		cr.Suzuki();
+		int hf = cr.Honda(233, 1);
+		System.out.println(hf);
+		
+	
+	
+	
 	}
 
 }
